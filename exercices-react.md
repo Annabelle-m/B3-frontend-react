@@ -8,7 +8,7 @@ Transformez le projet `library-react` en une application qui recherche des livre
 
 - Lancez le projet avec `npm install`, puis `npm run dev` dans `library-react`.
 - Repérez les points d’entrée, les pages et les composants communs. Quel rôle jouent `main.jsx`, `App.jsx` et les fichiers `.module.css` ?
-- Pour les appels à Google Books, utilisez la clé fournie en cours. Placez-la dans un fichier `.env.local` à la racine de `library-react`, sous le nom `VITE_GOOGLE_BOOKS_API_KEY`, puis redémarrez Vite. Elle sera accessible avec `import.meta.env.VITE_GOOGLE_BOOKS_API_KEY`.
+- Pour les appels à Google Books, utilisez la clé fournie en cours. Placez-la dans un fichier `.env.local` à la racine du dépôt, sous le nom `VITE_GOOGLE_BOOKS_API_KEY`, puis redémarrez Vite. Elle sera accessible avec `import.meta.env.VITE_GOOGLE_BOOKS_API_KEY`.
 
 Les variables préfixées par `VITE_` sont accessibles dans le navigateur : elles ne permettent pas de cacher un secret. Ne commitez pas votre fichier de configuration local.
 

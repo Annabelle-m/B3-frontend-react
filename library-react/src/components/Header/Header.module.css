@@ -21,4 +21,48 @@
       }
     }
   }
+
+  .favorites {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-left: auto;
+    padding: 6px 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 999px;
+    color: var(--accent-text-color);
+    font-size: 12px;
+
+    :global(.material-symbols-outlined) {
+      font-size: 17px;
+    }
+  }
+
+  .favoriteCount {
+    display: grid;
+    min-width: 21px;
+    height: 21px;
+    place-items: center;
+    padding-inline: 5px;
+    border-radius: 999px;
+    color: #fff;
+    background-color: var(--accent-text-color);
+    font-size: 11px;
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+  }
+
+  @media (max-width: 480px) {
+    padding: 20px 16px;
+
+    ul {
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .favorites {
+      margin-left: auto;
+    }
+  }
 }
